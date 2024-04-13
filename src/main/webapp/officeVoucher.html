@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>AAI RECEIPT VOUCHER AND PACKING</title>
+<style>
+#rcorners1 {
+  margin-top:20px;
+  border-radius: 25px;
+  background: #00FFFF;
+  padding: 20px; 
+   width: 120px;
+  height: 85px; 
+  box-shadow: 10px 10px 5px grey;
+}
+
+#rcorners2 { 
+  border-radius: 25px;
+  background: #00FFFF;
+  padding: 20px; 
+  width: 120px;
+  height: 80px; 
+  box-shadow: 10px 10px 5px grey;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #00FFFF;
+  padding: 20px; 
+   width: 120px;
+  height: 80px; 
+  box-shadow: 10px 10px 5px grey;
+}
+
+a{
+font-family: Sans-serif;
+font-size: 22px;
+text-align: center;
+text-shadow: 5px 5px 5px grey;
+}
+
+body{
+background-image:url("flight.png");
+background-size: 1580px 980px;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #6f8bfb ;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+.navbar a:hover {
+  background-color:#6f8bfb ;
+}
+
+.active {
+  background-color:#6f8bfb ;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+</style>
+</head>
+<body>
+<h1 align="center">WELCOME TO AIRPORTS AUTHORITY OF INDIA </h1>
+<h2 align="center">TO GENERATE RECEIPT AND ISSUE VOUCHER OF LIVERIES STORE SEC. NSCBI AIRPORT</h2>
+<div class="navbar">
+  <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+ 
+  <a href="UpdateReceiptVoucherList.jsp"><i class="fa fa-fw fa-envelope"></i>Update/Modify Other Receipt Voucher</a> 
+   <a href="UpdatePackingVoucherList.jsp"><i class="fa fa-fw fa-envelope"></i>Update/Modify Packing Voucher</a>
+
+</div>
+
+<center>
+<h3 id="rcorners1"><a href="LocationOtherAirport1.jsp">Receipt Voucher Other Airport</a></h3>
+<h3 id="rcorners2"><a href="PackingVoucher1.jsp">Packing Voucher</a></h3>
+</center>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Insert title here</title>
+<style type="text/css">
+h1{
+text-align: center;
+font-size: 35px;
+font-family: sans-serif;
+
+}
+
+
+.div1 {
+  width: 250px;
+  height: 150px;  
+  padding: 50px;
+  
+  box-sizing: border-box;
+  border-radius: 40px;
+  text-align: center;
+  background: #00FFFF;
+  margin-top:90px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  
+  box-shadow: 10px 10px 5px grey;
+}
+
+.div2 {
+  width: 250px;
+  height: 150px;  
+  padding: 50px;
+  
+  margin-top:90px;
+  background:#00FFFF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  
+   box-shadow: 10px 10px 5px grey;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+	font-family: serif;
+	text-shadow: 10px 10px 5px grey;
+}
+p{
+text-align: center;
+}
+img{
+align-items: left;
+}
+body{
+background-image: url("white_airplane-wallpaper-1920x1080.jpg");
+background-size: 1580px 980px;
+background-color: #6495ED;
+}
+
+a{
+font-family: Sans-serif;
+font-size: 25px;
+text-align: center;
+text-shadow: 5px 5px 5px grey;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar {
+  width: 100%;
+  background-color: #B9DAD7;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.navbar a:hover {
+  background-color:#B9DAD7 ;
+}
+
+.active {
+  background-color: #B9DAD7 ;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<h1>Welcome to Employees Uniform Voucher Generate Page</h1>
+<div class="navbar">
+  <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+ 
+  <a href="UpdateGentsUniformList.jsp"><i class="fa fa-fw fa-envelope"></i>Update/Modify Gents Uniform Voucher</a> 
+   <a href="UpdateLadiesUniformList.jsp"><i class="fa fa-fw fa-envelope"></i>Update/Modify Ladies Uniform Voucher</a>
+
+</div>
+
+
+<table>
+<tr>
+
+<td><h1  class="div1"><a href="gentsUniformInput.jsp">Gents Uniform</a></h1></td>
+
+<td><h1 class="div2"><a href="ladiesUniformInput.jsp">Ladies Uniform</a></h1></td>
+
+
+</tr>
+
+</table>
+
+
+
+
+</body>
+</html>
